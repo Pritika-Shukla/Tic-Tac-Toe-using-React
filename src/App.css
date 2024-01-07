@@ -1,0 +1,40 @@
+*{
+    background-color: black;
+    color: white;
+}
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .square {
+
+    height: 100px;
+    width: 100px;
+    border:2px solid white;
+    margin: 3px;
+    border-radius: 6px;
+    text-align: center;
+    cursor:pointer ;
+  }
+  .board-container{
+    margin-top: 50px;
+  }
+.btn{
+    width: 100px;
+    height: 50px;
+    outline: none;
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 40px;
+    font-size: 26px;
+    margin-top: 40px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(53, 51, 51);
+}
+.main{
+    text-align: center;
+    margin-top: 50px;
+}
